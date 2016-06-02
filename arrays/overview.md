@@ -1,6 +1,6 @@
 # Arrays
 
-Practice manipulating and saerching across Ruby array structures.
+Practice manipulating and searching across Ruby array structures.
 
 ### Challenges
 * [Cyclic Rotation](cyclic-rotation.rb)
