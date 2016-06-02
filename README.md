@@ -1,10 +1,10 @@
 # Algorithm Practice
 
 ##### Concepts:
-* [Iterations](iterations)
-* [Arrays](arrays)
-* [Time Complexity](time-complexity)
-* [Counting Elements](counting-elements)
+* [Iterations](iterations/overview.md)
+* [Arrays](arrays/overview.md)
+* [Time Complexity](time-complexity/overview.md)
+* [Counting Elements](counting-elements/overview.md)
 * Prefix Sums
 * Sorting
 * Stacks & Queues
