@@ -5,7 +5,7 @@
 * [Arrays](arrays/overview.md)
 * [Time Complexity](time-complexity/overview.md)
 * [Counting Elements](counting-elements/overview.md)
-* Prefix Sums
+* [Prefix Sums](prefix-sums/overview.md)
 * Sorting
 * Stacks & Queues
 * Leader
