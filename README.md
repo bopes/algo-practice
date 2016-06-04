@@ -6,7 +6,7 @@
 * [Time Complexity](time-complexity/overview.md)
 * [Counting Elements](counting-elements/overview.md)
 * [Prefix Sums](prefix-sums/overview.md)
-* Sorting
+* [Sorting](sorting/overview.md)
 * Stacks & Queues
 * Leader
 * Maximum slice
