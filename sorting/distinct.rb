@@ -1,5 +1,6 @@
 # Given an array of integers, find the number of unique value it contains.
 
+
 def solution(a)
 
   sorted = a.sort
@@ -12,6 +13,22 @@ def solution(a)
   end
 
   uniq_count
+
+end
+
+# Alternative solution:
+
+
+
+def solution_2(a)
+
+  uniq = Hash.new
+
+  a.each do |int|
+    uniq[int] = 1
+  end
+
+  uniq.length
 
 end
 
