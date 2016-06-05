@@ -5,4 +5,4 @@ Use sorting to speed up array manipulation and querying
 * [Triangle](triangle.rb)
 * [Distinct](distinct.rb)
 * [Max Product of Three](max_product_of_three.rb)
-* [Number of Disc Intersections]()
+* [Number of Disc Intersections](num_of_disc_intersections.rb)
