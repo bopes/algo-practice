@@ -7,7 +7,7 @@
 * [Counting Elements](counting-elements/overview.md)
 * [Prefix Sums](prefix-sums/overview.md)
 * [Sorting](sorting/overview.md)
-* Stacks & Queues
+* [Stacks & Queues](stacks-queues/overview.md)
 * Leader
 * Maximum slice
 * Prime and composite numbers
