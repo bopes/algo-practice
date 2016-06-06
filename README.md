@@ -8,7 +8,7 @@
 * [Prefix Sums](prefix-sums/overview.md)
 * [Sorting](sorting/overview.md)
 * [Stacks & Queues](stacks-queues/overview.md)
-* Leader
+* [Leader](leader/overview.md)
 * Maximum slice
 * Prime and composite numbers
 * Sieve of Eratosthenes
