@@ -3,3 +3,4 @@ Find leader elements in arrays. A leader is any element that constitutes more th
 
 ### Challenges
 * [Equi Leader](equi-leader.rb)
+* [Dominator](dominator.rb)
