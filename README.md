@@ -10,7 +10,7 @@
 * [Stacks & Queues](stacks-queues/overview.md)
 * [Leader](leader/overview.md)
 * [Maximum Slice](max-slice-problem/overview.md)
-* Prime and composite numbers
+* [Prime and composite numbers](prime-composite/overview.md)
 * Sieve of Eratosthenes
 * Euclidean
 * Fibonacci
