@@ -5,3 +5,4 @@ Solve problems using prime determination
 * [Minimum Perimeter Rectangle](min_perimeter_rectangle.rb)
 * [Count Factors](count_factors.rb)
 * [Peaks](peaks.rb)
+* [Flags](flags.rb)
