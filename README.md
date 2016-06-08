@@ -9,7 +9,7 @@
 * [Sorting](sorting/overview.md)
 * [Stacks & Queues](stacks-queues/overview.md)
 * [Leader](leader/overview.md)
-* Maximum slice
+* [Maximum slice](max-slice-problem/overview.md)
 * Prime and composite numbers
 * Sieve of Eratosthenes
 * Euclidean
