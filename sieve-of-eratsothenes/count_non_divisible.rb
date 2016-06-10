@@ -50,4 +50,37 @@ def solution2(a)
 end
 
 
+# Doesn't work 100% for some reason:
+
+def solution3(a)
+
+  n = a.length
+
+  count = Hash.new(0)
+  a.each do |int|
+    count[int] += 1
+  end
+
+  divisors = Hash.new()
+  count.keys.each do |int|
+    i = 1
+    divisors[int] = []
+    while i * i <= int do
+      divisors[int] << i if int % i == 0
+      divisors[int] << int / i if i * i != int
+      i += 1
+    end
+  end
+
+  non_divisors = Hash.new(n)
+  count.keys.each do |int|
+    divisors[int].each do |div|
+      non_divisors[int] -= count[div]
+    end
+  end
+
+  a.map { |int| non_divisors[int] }
+
+
+end
 
