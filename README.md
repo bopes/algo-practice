@@ -12,7 +12,7 @@
 * [Maximum Slice](max-slice-problem/overview.md)
 * [Prime and composite numbers](prime-composite/overview.md)
 * [Sieve of Eratosthenes](sieve-of-eratsothenes/overview.md)
-* Euclidean
+* [Euclidean Algorithm](euclidean-algorithm/overview.md)
 * Fibonacci
 * Binary Search
 * Caterpillar
