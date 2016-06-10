@@ -11,7 +11,7 @@
 * [Leader](leader/overview.md)
 * [Maximum Slice](max-slice-problem/overview.md)
 * [Prime and composite numbers](prime-composite/overview.md)
-* [Sieve of Eratosthenes](sieve-of-eratsothenes/overview.rb)
+* [Sieve of Eratosthenes](sieve-of-eratsothenes/overview.md)
 * Euclidean
 * Fibonacci
 * Binary Search
