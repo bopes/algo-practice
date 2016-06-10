@@ -26,5 +26,28 @@ def solution1(a)
 
 end
 
+# Better O(N**2):
+
+def solution2(a)
+
+  n = a.length
+
+  count = Hash.new(0)
+  a.each do |int|
+    count[int] += 1
+  end
+
+  non_divisors = Hash.new(0)
+  count.keys.each do |int_1|
+    count.keys.each do |int_2|
+      non_divisors[int_1] += count[int_2] if int_1 % int_2 != 0
+    end
+  end
+
+  a.map { |int| non_divisors[int] }
+
+
+end
+
 
 
