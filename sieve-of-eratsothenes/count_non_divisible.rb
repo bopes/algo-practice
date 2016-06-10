@@ -1,10 +1,45 @@
-# Given an array of integers, map it to a count of the elements that aren't divisble into the base element.
+# Given an array of integers, map it to a count of the elements that aren't divisble into the base element. Time complexity should be O(N*log(N)).
 
-# NOTE: Performance should be O(N*log(N)). The following solutions did not achieve that.
+def solution(a)
 
-# O(N**2):
+  n = a.length
 
-def solution1(a)
+  count = Hash.new(0)
+  a.each do |int|
+    count[int] += 1
+  end
+
+  divisors = Hash.new()
+  count.keys.each do |int|
+    i = 1
+    divisors[int] = []
+    while i * i <= int  do
+      if int % i == 0
+        divisors[int] << i
+        divisors[int] << int / i if i * i != int
+      end
+      i += 1
+    end
+  end
+
+  non_divisors = Hash.new(n)
+  count.keys.each do |int|
+    divisors[int].each do |div|
+      non_divisors[int] -= count[div]
+    end
+  end
+
+  a.map { |int| non_divisors[int] }
+
+end
+
+
+
+# NOTE: The following solutions did not achieve the desired time complexity. They acheived O(N**2)
+
+# Brute force:
+
+def solution2(a)
 
   counts = Hash.new(0)
 
@@ -26,9 +61,9 @@ def solution1(a)
 
 end
 
-# Better O(N**2):
+# Slightly Better:
 
-def solution2(a)
+def solution3(a)
 
   n = a.length
 
@@ -48,39 +83,3 @@ def solution2(a)
 
 
 end
-
-
-# Doesn't work 100% for some reason:
-
-def solution3(a)
-
-  n = a.length
-
-  count = Hash.new(0)
-  a.each do |int|
-    count[int] += 1
-  end
-
-  divisors = Hash.new()
-  count.keys.each do |int|
-    i = 1
-    divisors[int] = []
-    while i * i <= int do
-      divisors[int] << i if int % i == 0
-      divisors[int] << int / i if i * i != int
-      i += 1
-    end
-  end
-
-  non_divisors = Hash.new(n)
-  count.keys.each do |int|
-    divisors[int].each do |div|
-      non_divisors[int] -= count[div]
-    end
-  end
-
-  a.map { |int| non_divisors[int] }
-
-
-end
-
