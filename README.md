@@ -13,7 +13,7 @@
 * [Prime and composite numbers](prime-composite/overview.md)
 * [Sieve of Eratosthenes](sieve-of-eratsothenes/overview.md)
 * [Euclidean Algorithm](euclidean-algorithm/overview.md)
-* [Fibonacci](fibonacci-numbers.md)
+* [Fibonacci](fibonacci-numbers/overview.md)
 * Binary Search
 * [Caterpillar](caterpillar/overview.md)
 * Greedy
