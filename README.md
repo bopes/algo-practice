@@ -15,7 +15,7 @@
 * [Euclidean Algorithm](euclidean-algorithm/overview.md)
 * [Fibonacci](fibonacci-numbers/overview.md)
 * Binary Search
-* Caterpillar
+* [Caterpillar](caterpillar/overview.md)
 * Greedy
 * Dyanmic Programming
 * Indeed Prime 2016
