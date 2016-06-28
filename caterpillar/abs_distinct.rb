@@ -1,3 +1,5 @@
+# Given a sorted array, find the number of distinct absolute values it contains.
+
 def solution(a)
 
   n = a.length
