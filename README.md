@@ -1,5 +1,7 @@
 # Algorithm Practice
 
+Ruby solutions to Codility algorithm lessons.  All solutions received a 100% score on both time complexity and space complexity.
+
 ##### Concepts:
 * [Iterations](iterations/overview.md)
 * [Arrays](arrays/overview.md)
