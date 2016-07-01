@@ -3,5 +3,5 @@
 Practice manipulating and searching across Ruby array structures.
 
 ### Challenges
-* [Cyclic Rotation](cyclic-rotation.rb)
-* [Odd Occurrences](odd-occurrences.rb)
+* Cyclic Rotation: [Ruby](cyclic-rotation.rb) | [Python](cyclic_rotation.py)
+* Odd Occurrences: [Ruby](odd-occurrences.rb)
