@@ -2,7 +2,7 @@
 Use prefix sums to quickly analyze array slices
 
 ### Challenges
-* [Passing Cars](passing-cars.rb)
-* [Count Divisors](count-divisors.rb)
-* [Genomic Range Query](genomic-range-query.rb)
-* [Minimum Average Two Slice](minimum-average-two-slice.rb)
+* Passing Cars: [Ruby](passing-cars.rb) | [Python](passing_cars.py)
+* Count Divisors: [Ruby](count-divisors.rb)
+* Genomic Range Query: [Ruby](genomic-range-query.rb)
+* Minimum Average Two Slice: [Ruby](minimum-average-two-slice.rb)
