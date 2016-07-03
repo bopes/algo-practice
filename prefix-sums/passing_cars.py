@@ -1,0 +1,1 @@
+# Count the number of passing cars on the road. Cars are represented in an array, with 0's for cars going east and 1 for cars going west.
