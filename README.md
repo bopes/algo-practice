@@ -1,6 +1,6 @@
 # Algorithm Practice
 
-Ruby solutions to Codility algorithm lessons.  All solutions received a 100% score on both time complexity and space complexity.
+Ruby and Python solutions to Codility algorithm lessons.  All solutions received a 100% score on both time complexity and space complexity.
 
 ##### Concepts:
 * [Iterations](iterations/overview.md)
@@ -18,7 +18,7 @@ Ruby solutions to Codility algorithm lessons.  All solutions received a 100% sco
 * [Fibonacci](fibonacci-numbers/overview.md)
 * Binary Search
 * [Caterpillar](caterpillar/overview.md)
-* Greedy
-* Dyanmic Programming
+* [Greedy Algorithms](greedy-algorithms/overview.md)
+* Dynamic Programming
 * Indeed Prime 2016
 * Future Training
