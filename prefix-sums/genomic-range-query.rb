@@ -54,3 +54,64 @@ def solution(s, p, q)
   r
 
 end
+
+
+
+
+# class Nuc_obj
+
+#   attr_reader :counts
+
+#   def initialize(nuc, prev_nuc_obj)
+#     if prev_nuc_obj == nil
+#       counts = Hash.new(0)
+#       counts[nuc] = 1
+#     else
+#       self.counts = prev_nuc_obj.counts
+#       self.counts[nuc] += 1
+#     end
+#   end
+
+#   def compare(prev_nuc_obj)
+#     comparison = Hash.new(0)
+#     ["A","C","G","T"].each do |nuc|
+#       comparison[nuc] = self.counts[nuc] - prev_nuc_obj.counts[nuc]
+#     end
+#     ["A","C","G","T"].each_with_index do |nuc, index|
+#       return index + 1 if counts[nuc] > 0
+#     end
+#   end
+
+# end
+
+# class Genome
+
+#   def initialize(full_genome)
+#     translated_genome = []
+#     full_genome.each do |nuc|
+#       translated_genome << Nuc_obj.new(nuc, translated_genome.last)
+#     end
+#   end
+
+#   def compare(p, q)
+#     comparison = Array.new
+#     for i in 0..p.length
+#       comparison << translated_genome[q[i]].compare(translated_genome[p[i]])
+#     end
+#     return comparison
+#   end
+
+# end
+
+# def solution(s, p, q)
+
+#   genome = Genome.new(s)
+#   results = []
+
+#   for i in 0..p.length
+#     results << genome.compare(p[i], q[i])
+#   end
+
+#   results
+
+# end
