@@ -18,7 +18,7 @@ Ruby and Python solutions to Codility algorithm lessons.  All solutions received
 * [Fibonacci](fibonacci-numbers/overview.md)
 * Binary Search
 * [Caterpillar](caterpillar/overview.md)
-* Greedy
-* Dyanmic Programming
+* [Greedy Algorithms](greedy-algorithms/overview.md)
+* Dynamic Programming
 * Indeed Prime 2016
 * Future Training
